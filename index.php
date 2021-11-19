@@ -9,16 +9,15 @@
     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
-
-        <!-- Ini Adalah Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
+<!-- Ini Adalah Navbar -->
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
     <a class="navbar-brand" href="#">Fadly</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
             <a class="nav-link Mactive" aria-current="page" href="#">Alamat</a>
@@ -34,28 +33,48 @@
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
     </form>
-</div>
-</div>
-</nav>
+     </div>
+    </div>
+  </nav>
 </div>
 <!-- Ini Adalah Penutup Navbar -->
 <!-- Content 1 -->
-<div class="container">
+<div class="container" id=perkenalan> 
   <div class="row">
     <div class="col-4">
     <div class="card mx-auto" style="width: 8rem;">
   <img src="assets/img/fadly.jpg" class="card-img-top" style="width: 12rem;">
-  <div class="card-body">
+    <div class="card-body">
     <p class="card-text">Muhammad Fadly Eka Ardiansyah</p>
+    </div>
   </div>
 </div>
-    </div>
-    <div class="col-8">
+<div class="col-8">
       <h1>Selamat datang di website saya</h1>
       <p>Perkenalkan nama saya Muhammad Fadly Eka Ardiansyah dari kelas xi rpl</p>
     </div>
   </div>
 </div>
+<!-- Penutup Content 1 -->
+<!-- Content 2 -->
+<div class="container" id=alamat>
+  <div class="row">
+    <div class="col-8">
+    <div class="card mx-auto" style="width: 8rem;">
+  <img src="assets/img/fadly.jpg" class="card-img-top" style="width: 12rem;">
+    <div class="card-body">
+    <p class="card-text">Muhammad Fadly Eka Ardiansyah</p>
+    </div>
+  </div>
+</div>
+<div class="col-4">
+      <h1>Selamat datang di website saya</h1>
+      <p>Perkenalkan nama saya Muhammad Fadly Eka Ardiansyah dari kelas xi rpl</p>
+    </div>
+  </div>
+</div>
+<!-- Penutup Content 2 -->
+
 <!-- Link Javascript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body> 
