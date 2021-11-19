@@ -60,18 +60,26 @@
 <div class="container" id=alamat>
   <div class="row">
     <div class="col-8">
-    <div class="card mx-auto" style="width: 8rem;">
-  <img src="assets/img/fadly.jpg" class="card-img-top" style="width: 12rem;">
-    <div class="card-body">
-    <p class="card-text">Muhammad Fadly Eka Ardiansyah</p>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/slide/h1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/slide/h2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/slide/h3.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
 </div>
+</div>
 <div class="col-4">
-      <h1>Selamat datang di website saya</h1>
-      <p>Perkenalkan nama saya Muhammad Fadly Eka Ardiansyah dari kelas xi rpl</p>
+  <h1>alamat rumah saya</h1>
+  <p>Jl.Kebon Jeruk XIX No.59</p>
     </div>
-  </div>
+</div>
+</div>
 </div>
 <!-- Penutup Content 2 -->
 
